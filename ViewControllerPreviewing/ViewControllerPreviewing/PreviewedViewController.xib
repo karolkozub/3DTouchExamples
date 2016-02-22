@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PreviewedViewController" customModule="ViewControllerPreviewing" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Previewed View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otb-l1-4nP">
+                    <rect key="frame" x="200" y="289" width="201" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="0.94723539089999997" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="otb-l1-4nP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2yY-XO-8dS"/>
+                <constraint firstItem="otb-l1-4nP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="289" id="TN4-RD-Zev"/>
+                <constraint firstAttribute="trailing" secondItem="otb-l1-4nP" secondAttribute="trailing" constant="199" id="UI9-xd-bTU"/>
+                <constraint firstAttribute="bottom" secondItem="otb-l1-4nP" secondAttribute="bottom" constant="290" id="XPN-fO-ClE"/>
+                <constraint firstItem="otb-l1-4nP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="200" id="bTi-u4-jf2"/>
+                <constraint firstItem="otb-l1-4nP" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ob4-by-H5U"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="TN4-RD-Zev"/>
+                    <exclude reference="UI9-xd-bTU"/>
+                    <exclude reference="XPN-fO-ClE"/>
+                    <exclude reference="bTi-u4-jf2"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>
